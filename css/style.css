@@ -45,3 +45,53 @@
 #navbar-items .nav-item{
     margin: 0 1rem;
 }
+
+/* SLIDER */
+
+#slider{
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+#slider .carousel-caption{
+    bottom: 3rem;
+}
+#slider .carousel-caption h5{
+    font-size: 2.5rem;
+    text-shadow: #000 2px 2px;
+}
+.btn{
+    border-radius: 0;
+}
+#slider .btn{
+    padding: .3 .8rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.carousel-control-prev i,
+.carousel-control-next i{
+    color: #111;
+    font-size: 3rem;
+}
+.carousel-indicators[data-bs-target]{
+    background-color: #222;
+    opacity: .8;
+}
+.carousel-indicators .active{
+    background-color: #000;
+}
+@media(min-width: 768px){
+    #slider .carousel-caption{
+        bottom: 15rem;
+    }
+    #slider .carousel-caption h5{
+        font-size: 4rem;
+        text-shadow: #000 2px 3px;
+    }
+    #slider .btn{
+        padding: .6 1.6rem;
+        font-size: 1.2rem;
+    }
+    .carousel-indicators{
+        bottom: 7rem;
+    }
+}

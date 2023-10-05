@@ -55,24 +55,94 @@
           aria-controls="navbar-items"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        ><i class="bi bi-list"></i></button>
+        >
+          <i class="bi bi-list"></i>
+        </button>
         <div class="collapse navbar-collapse" id="navbar-items">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a href="#" class="nav-link active" aria-current="page" >Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" >Projetos</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Imóveis</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contatos</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Imóveis</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contatos</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+
+    <!--SLIDER -->
+
+    <div class="container" id="slider-container">
+      <div class="carousel slide" id="slider" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            data-bs-target="#slider"
+            data-bs-slide-to="0"
+            aria-current="true"
+            aria-label="slide 1"
+          ></button>
+          <button
+            data-bs-target="#slider"
+            data-bs-slide-to="1"
+            aria-label="slide 2"
+          ></button>
+          <button
+            data-bs-target="#slider"
+            data-bs-slide-to="2"
+            aria-label="slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner-1.jpg" alt="casa 1" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Casas planejadas</h5>
+              <a href="#" class="btn btn-dark">Ver projetos</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner-2.jpg" alt="casa 2" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Projetos complexos</h5>
+              <a href="#" class="btn btn-dark">Ver projetos</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner-3.jpg" alt="casa 3" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Projetos inovadores</h5>
+              <a href="#" class="btn btn-dark">Ver projetos</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="prev"
+        >
+          <i class="bi bi-chevron-compact-left"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="next"
+        >
+          <i class="bi bi-chevron-compact-right"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     <!-- MINI BANNERS  -->
+    </div>
   </body>
 </html>
