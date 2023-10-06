@@ -174,3 +174,25 @@
         opacity: 0;
     }
 }
+
+/* INFO */
+#info-content{
+     margin-bottom: 4rem;
+     padding: 4rem 1rem;
+}
+#info-numbers{
+    margin: 1.5rem 0;
+}
+#info-banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+#info-numbers h3{
+    font-size: 3rem;
+}
+@media(min-width: 768px){
+    #info-content{
+        padding: 3.5rem;
+    }
+}
