@@ -95,3 +95,29 @@
         bottom: 7rem;
     }
 }
+
+/* MINI BANNERS */
+
+#mini-banners{
+    margin-bottom: 4rem;
+}
+#mini-banners .card{
+    padding: 2rem .3rem;
+    border-radius: 0;
+    margin-bottom: 1rem;
+}
+#mini-banners i{
+    font-size: 4rem;
+}
+#mini-banners .card-title{
+    margin-bottom: 1.5rem;
+}
+#mini-banners .btn{
+    margin-top: 1.5rem;
+    padding: .6rem 1.2rem;
+}
+@media (min-width: 768px){
+    #mini-banners{
+        margin-top: -6rem;
+    }
+}
